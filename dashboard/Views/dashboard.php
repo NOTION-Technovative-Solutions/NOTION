@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notion</title>
+    <title>Dashboard</title>
+    <!-- <link rel="preload" href="./adminlte.css" as="style" /> -->
 </head>
 <body>
-    <p>Dashboard</p>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
+            <i class="bi bi-list"></i>
+            </a>
+        </li>
+        <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
 </body>
 </html>
